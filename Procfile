@@ -1,0 +1,1 @@
+ worker: python rules_bot.py
