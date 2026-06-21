@@ -63,4 +63,4 @@ async def setup_rules(ctx):
 import os
 # ... بقية الكود ...
 token = os.getenv('TOKEN')
-bot.run(token)]
+bot.run(token)
