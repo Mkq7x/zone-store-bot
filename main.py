@@ -61,6 +61,6 @@ async def setup_rules(ctx):
     await ctx.send(embed=embed, view=RulesLaunchView())
 
 import os
-# ... بقية الكود ...
+# ... تأكد أنك لا تعيد تعريف token كـ None في مكان آخر
 token = os.getenv('TOKEN')
 bot.run(token)
