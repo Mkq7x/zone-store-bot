@@ -1,1 +1,1 @@
- worker: python rules_bot.py
+worker: python main.py
